@@ -1,8 +1,8 @@
-#Rest API for Plant Database
+# **Rest API for Plant Database**
 
 During my internship we focus on the development of Back-End. One of the main areas of developing Back-End is the creating APIs. The problem was the create a Restful API that can handle user search, update, delete, create request for the specific database. For the implementation I use plant database. Then there have to be user interaction that can login and if ensure the authorization can access the request from database. Furthermore, there has to be log files that store the statistics about requests and which user request which information. At the end there should be Apache Kafka producer and consumer, whenever user request information all of the data about request stored and consumed by Kafka partitions. Successful project consists of a Restful API that can handle all requests from users, to be able to record user requests and statistics in a complete and accurate log file an Apache Kafka system that can run and send and save data.
 
-#Tools and Techniques Used
+# **Tools and Techniques Used**
 
 I have chosen Java for this project. In Back-End, Telenity also uses Java this is one of the reasons, my Supervisor advise me to use Java while creating Restful API. I use Java because, it is object-oriented language that ensure the communication between classes. Java also have multithreading, this is important for me to while running Rest API, I can collect statistics in terms of how many requests come in minutes, hours and so on. Java also have important frameworks. While I am creating Rest API, I have used Spring Framework. Java is distributed, this ensures that it can be used for networks. Java's client/server design provides that data is being sent to or being received from a file. Java is easier to program in than other traditional languages for network-based applications. Also, ensuring the connection with Apache Kafka is relatively easy in Kafka. With using Maven and application properties, I can easily connect the database and my application and ensure important plugins for my project.
 
